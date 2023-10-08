@@ -1,0 +1,21 @@
+targets:
+- name: Remote System 1
+  properties:
+    address: 192.168.0.1
+    deviceType: Not Implemented Yet
+  services:
+    ssh:
+      sshPort: 22
+      sshUser: admin
+      sshPass: password
+- name: Remote System 2
+  properties:
+    address: 192.168.0.2
+    deviceType: Not Implemented Yet
+  services:
+    ssh:
+      sshPort: 22
+      sshUser: admin
+      sshPass: password
+discord:
+- token: API_TOKEN

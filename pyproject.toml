@@ -7,8 +7,14 @@ authors = ["Bryce Jenkins <bryce@durish.xyz>"]
 [tool.poetry.dependencies]
 python = "^3.10"
 Flask = "^3.0.0"
+pydantic = "^2.4.2"
 
 [tool.poetry.dev-dependencies]
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.9.1"
+flake8 = "^6.1.0"
+pre-commit = "^3.4.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

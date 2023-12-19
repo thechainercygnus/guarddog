@@ -5,7 +5,7 @@ decorator==5.1.1
 Deprecated==1.2.14
 fabric2==3.2.2
 invoke==2.2.0
-paramiko==3.3.1
+paramiko==3.4.0
 pycparser==2.21
 PyNaCl==1.5.0
 PyYAML==6.0.1
